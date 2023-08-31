@@ -12,7 +12,7 @@ export const Hero = () => {
   
   return (
     <div className="flex flex-col-reverse justify-center w-full h-screen md:flex-row md:h-screen" id="Hero">
-      <div className="flex items-center justify-center p-10 h-1/4 md:w-2/6">
+      <div className="flex items-center justify-center p-10 h-1/4 md:h-full md:w-2/6">
         <div id="text" className="text-center md:text-left">
           <h1 className="mb-4 text-3xl font-bold md:text-5xl">Menuka Deshan</h1>
           <p className="text-sm tracking-widest capitalize md:text-md">
@@ -39,7 +39,7 @@ export const Hero = () => {
         </div>
       </div>
 
-      <div className="relative overflow-visible h-4/5 md:w-4/6">
+      <div className="relative overflow-visible h-4/5 md:h-full md:w-4/6">
         {/* 3d MODEL */}
         <Canvas style={{ width: '100%', height: '100%' }}>
           <OrbitControls enableZoom={false} />
