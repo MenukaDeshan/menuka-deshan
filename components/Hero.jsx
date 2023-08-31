@@ -9,9 +9,10 @@ import { Canvas } from '@react-three/fiber';
 import profile from '../public/profile-pic.png';
 
 export const Hero = () => {
+  
   return (
-    <div className="flex flex-col-reverse justify-center w-full h-screen md:flex-row" id="Hero">
-      <div className="flex items-center justify-center p-10 md:w-2/5">
+    <div className="flex flex-col-reverse justify-center w-full h-screen md:flex-row md:h-screen" id="Hero">
+      <div className="flex items-center justify-center p-10 h-1/4 md:w-2/6">
         <div id="text" className="text-center md:text-left">
           <h1 className="mb-4 text-3xl font-bold md:text-5xl">Menuka Deshan</h1>
           <p className="text-sm tracking-widest capitalize md:text-md">
@@ -31,16 +32,16 @@ export const Hero = () => {
           </p>
           <p className="text-sm md:text-md">Developer and Designer</p>
           <p className="text-sm md:text-md">
-            I am a versatility and easily adapt to different hats (Beginner level Designer 🎨 and a Developer).
+            I am a versatility and easily adapt to different hats.
             I love exploring new tech stacks.
           </p>
           <button className="px-4 py-2 mt-4 text-white bg-purple-500 rounded">Learn More</button>
         </div>
       </div>
 
-      <div className="relative mx-auto overflow-visible md:w-3/5">
+      <div className="relative overflow-visible h-4/5 md:w-4/6">
         {/* 3d MODEL */}
-        <Canvas>
+        <Canvas style={{ width: '100%', height: '100%' }}>
           <OrbitControls enableZoom={false} />
           <ambientLight intensity={1} />
           <directionalLight position={[3, 2, 1]} />
@@ -49,8 +50,8 @@ export const Hero = () => {
           </Sphere>
         </Canvas>
         <div className="flex items-center justify-center">
-          <Image
-            src={profile}
+       <Image
+            src={profile} 
             alt="horebanner"
             className="absolute top-0 bottom-0 left-0 right-0 object-contain h-auto m-auto mx-auto rounded-full"
             width={600}     
