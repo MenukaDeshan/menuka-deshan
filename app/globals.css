@@ -7,6 +7,21 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+@font-face {
+  font-family: "glitch";
+  src: url('../public/fonts/Bad\ Signal.otf');
+}
+@font-face {
+  font-family: "nexa";
+  src: url('../public/fonts/Nexa-Heavy.ttf');
+}
+#dev{
+  font-family: nexa;
+}
+#name{
+  font-family: glitch;
+  font-weight: 100;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -16,7 +31,6 @@
   }
 }
 html{
-  height:100vh;
   scroll-snap-type:y mandatory;
   scroll-behavior:smooth;
   overflow-y: auto;
@@ -25,6 +39,12 @@ html{
   &::-webkit-scrollbar{
     display:none;
 }
+}
+section{
+  scroll-snap-type:y mandatory;
+  scroll-behavior:smooth;
+  overflow-y: auto;
+  scrollbar-width:none;
 }
 
 body {
@@ -35,6 +55,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 @media only screen and (min-width: 768px) {
   canvas{

@@ -7,19 +7,28 @@ import Navbar from "./Navbar";
 import { OrbitControls, Sphere, MeshDistortMaterial } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 import profile from '../public/profile-pic.png';
+import { BsFacebook, BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs';
 
 export const Hero = () => {
   
   return (
-    <div className="flex flex-col-reverse justify-center w-full h-screen md:flex-row md:h-screen" id="Hero">
-      <div className="flex items-center justify-center p-10 h-1/4 md:h-full md:w-2/5">
+    <section className="flex flex-col-reverse justify-center w-full h-screen md:flex-row md:h-screen" id="Hero">
+      <div className="flex items-center justify-center p-10 h-1/2 md:h-full md:w-2/5">
         <div id="text" className="text-center md:text-left">
-          <h1 className="mb-4 text-3xl font-bold md:text-5xl">Menuka Deshan</h1>
+        <h1 id='name' className="mb-2 text-3xl font-bold uppercase md:text-5xl hover:text-purple-400">Menuka Deshan</h1>
+          {/* Icons */}
+          <div className='flex justify-center md:justify-start'>
+            <h2 className='flex text-2xl'>
+            <a href='https://github.com/MenukaDeshan' target='blank' className='m-1 hover:text-purple-500'><BsGithub/></a>
+            <a href='https://github.com/MenukaDeshan' target='blank' className='m-1 hover:text-purple-500'><BsFacebook/></a>
+            <a href='https://github.com/MenukaDeshan' target='blank' className='m-1 hover:text-purple-500'><BsInstagram/></a>
+            </h2>
+          </div>
           <p className="text-sm tracking-widest capitalize md:text-md">
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                "Wake up to reality",
+                "In the depths of code, secrets are revealed.",
                 2000,
                 "",
               ]}
@@ -30,16 +39,16 @@ export const Hero = () => {
               className="py-2 font-light"
             />
           </p>
-          <p className="text-sm md:text-md">Developer and Designer</p>
-          <p className="text-sm md:text-md">
-            I am a versatility and easily adapt to different hats.
-            I love exploring new tech stacks.
+          <p className="text-lg md:text-2xl" id='dev'>Developer and Designer</p>
+          <p className="text-sm font-thin md:text-md">
+          I am a passionate and enthusiastic beginner programmer with a strong desire to explore the exciting world of coding. 
+          I am constantly eager to learn and improve my skills, and I enjoy tackling coding challenges and building small projects. 
           </p>
           <button className="px-4 py-2 mt-4 text-white bg-purple-500 rounded">Learn More</button>
         </div>
       </div>
 
-      <div className="relative overflow-visible h-4/5 md:h-full md:w-3/5">
+      <div className="relative overflow-visible h-1/2 md:h-full md:w-3/5">
         {/* 3d MODEL */}
         <Canvas style={{ width: '100%', height: '100%' }}>
           <OrbitControls enableZoom={false} />
@@ -54,11 +63,11 @@ export const Hero = () => {
             src={profile} 
             alt="horebanner"
             className="absolute top-0 bottom-0 left-0 right-0 object-contain h-auto m-auto mx-auto rounded-full"
-            width={600}     
+            width={550}     
             priority
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };

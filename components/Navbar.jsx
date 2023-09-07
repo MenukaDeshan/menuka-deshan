@@ -54,9 +54,9 @@ const Navbar = () => {
 			</button>
 		</div>
 		<ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 md:mx-auto md:flex md:items-center md:w-auto md:space-x-6">
-			<li><a class="text-sm text-purple-600 font-bold" href="#">Home</a></li>
+			<li><a class="text-sm text-purple-600 font-bold" href="#Hero">Home</a></li>
 
-			<li><a class="text-sm text-gray-400 hover:text-gray-500" href="#">About Us</a></li>
+			<li><a class="text-sm text-gray-400 hover:text-gray-500" href="#aboutme">About Me</a></li>
 
 			<li><a class="text-sm text-gray-400 hover:text-gray-500" href="#">Services</a></li>
 
@@ -80,10 +80,10 @@ const Navbar = () => {
         <div>
           <ul>
             <li class="mb-1">
-              <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-purple-900 hover:text-purple-50 rounded" href="#">Home</a>
+              <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-purple-900 hover:text-purple-50 rounded" href="#Hero">Home</a>
             </li>
             <li class="mb-1">
-              <a class="block p-4 text-sm font-semibold text-gray-400 h hover:bg-purple-900 hover:text-purple-50 rounded" href="#">About Us</a>
+              <a class="block p-4 text-sm font-semibold text-gray-400 h hover:bg-purple-900 hover:text-purple-50 rounded" href="#aboutme">About Me</a>
             </li>
             <li class="mb-1">
               <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-purple-900 hover:text-purple-50 rounded" href="#">Services</a>
