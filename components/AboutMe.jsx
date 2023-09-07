@@ -22,7 +22,9 @@ const AboutMe = () => {
       </div>
       <div className="flex items-center justify-center p-10 h-1/3 md:h-full md:w-2/5">
         <div id="text" className="text-center md:text-left">
-        <h1 className="mb-2 text-lg font-bold text-transparent uppercase md:text-xl bg-clip-text bg-gradient-to-r from-purple-500 to-yellow-500">Hello, I'm</h1>
+        <h1 className="mb-2 text-lg font-bold text-transparent uppercase md:text-xl bg-clip-text bg-gradient-to-r from-purple-500 to-yellow-500">
+        Hello
+        </h1>
           {/* Icons */}
           <h1 className="text-4xl font-extrabold tracking-widest capitalize md:text-md">
             <TypeAnimation
@@ -45,10 +47,10 @@ const AboutMe = () => {
             />
           </h1>
           <p className="text-sm font-thin md:text-md">
-          "I am a passionate and enthusiastic beginner programmer with a strong desire to explore the exciting world of coding. 
+          I am a passionate and enthusiastic beginner programmer with a strong desire to explore the exciting world of coding. 
           I have a solid foundation in the basics of programming languages such as Python, JavaScript, and HTML/CSS. 
           I am constantly eager to learn and improve my skills, and I enjoy tackling coding challenges and building small projects. 
-          My goal is to grow as a programmer and eventually contribute to innovative software solutions that can make a positive impact on people's lives."
+          My goal is to grow as a programmer and eventually contribute to innovative software solutions that can make a positive impact on people s lives.
           </p>
         </div>
       </div>

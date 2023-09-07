@@ -34,7 +34,7 @@ export const Hero = () => {
           </p>*/}
           <p className="text-lg md:text-2xl" id='dev'>Web Developer</p>
           <p className="text-sm font-thin md:text-md">
-          "Bugs are the footprints of the programmer's journey."
+          &ldquo;Bugs are the footprints of the programmer&rsquo;s journey.&rdquo;
           </p>
           {/* Icons */}
           <div className='flex justify-center mt-1 md:justify-start'>
