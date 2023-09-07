@@ -12,8 +12,8 @@ import { BsFacebook, BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs';
 export const Hero = () => {
   
   return (
-    <section className="flex flex-col-reverse justify-center w-full h-screen md:flex-row md:h-screen" id="Hero">
-      <div className="flex items-center justify-center p-10 h-1/2 md:h-full md:w-2/5">
+    <div className="flex flex-col-reverse justify-center w-full h-screen md:flex-row md:h-screen" id="Hero">
+      <div className="flex items-center justify-center p-10 h-1/4 md:h-full md:w-2/5">
         <div id="text" className="text-center md:text-left">
         <h1 id='name' className="mb-2 text-3xl font-bold uppercase md:text-5xl hover:text-purple-400">Menuka Deshan</h1>
           {/* Icons */}
@@ -48,7 +48,7 @@ export const Hero = () => {
         </div>
       </div>
 
-      <div className="relative overflow-visible h-1/2 md:h-full md:w-3/5">
+      <div className="relative overflow-visible h-4/5 md:h-full md:w-3/5">
         {/* 3d MODEL */}
         <Canvas style={{ width: '100%', height: '100%' }}>
           <OrbitControls enableZoom={false} />
