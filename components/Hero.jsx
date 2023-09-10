@@ -17,6 +17,7 @@ export const Hero = () => {
       <m.div 
       className="flex items-center justify-center p-10 h-1/5 md:h-full md:w-2/5">
         <div id="text" className="overflow-hidden text-center md:text-left">
+        <h1 className="mb-1 font-mono text-3xl">I am</h1>
         <h1 id='name' className="mb-2 text-5xl font-bold uppercase md:text-7xl hover:text-purple-400">Menuka Deshan</h1>
           
           <p className="text-sm tracking-widest capitalize md:text-md">

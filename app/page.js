@@ -2,6 +2,7 @@
 import AboutMe from '@/components/AboutMe'
 import { Hero } from '@/components/Hero'
 import Projects from '@/components/Projects'
+import Footer from '@/components/Footer';
 import { AnimatePresence } from 'framer-motion';
 import { useState, useEffect } from 'react'
 
@@ -11,6 +12,7 @@ export default function Home(router) {
       <Hero/>
       <AboutMe/>
       <Projects/>
+      <Footer/>
     </main>
   )
 }

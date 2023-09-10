@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect } from 'react';
+import { motion as m } from 'framer-motion';
 
 const Navbar = () => {
   useEffect(() => {
@@ -41,7 +42,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav class="fixed top-0 left-0 right-0 z-10 px-20 py-4 flex justify-between items-center ">
+    <nav class="fixed top-0 left-0 right-0 z-10 px-20 py-4 flex justify-between items-center bg-black/70 md:bg-black/20 md:backdrop-blur-lg">
 		<a class="text-3xl font-bold leading-none" href="#">
 			<h1>Deshan</h1>
 		</a>
@@ -58,15 +59,15 @@ const Navbar = () => {
 
 			<li><a class="text-sm text-gray-400 hover:text-gray-500" href="#aboutme">About Me</a></li>
 
-			<li><a class="text-sm text-gray-400 hover:text-gray-500" href="#">Services</a></li>
+			<li><a class="text-sm text-gray-400 hover:text-gray-500" href="#projects">My Projects</a></li>
 
 			<li><a class="text-sm text-gray-400 hover:text-gray-500" href="#">Contact</a></li>
 		</ul>
 		
 		<a class="hidden md:inline-block py-2 px-6 bg-purple-500 hover:bg-purple-600 text-sm text-white font-bold rounded-xl transition duration-200" href="#">Resume</a>
     <div class="navbar-menu relative z-50 hidden">
-      <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
-      <div class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-black border-r overflow-y-auto">
+      <div class="navbar-backdrop fixed inset-0 bg-black/20 opacity-25"></div>
+      <div class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-black/20 backdrop-blur-lg border-r overflow-y-auto">
         <div class="flex items-center mb-8">
           <a class="mr-auto text-3xl font-bold leading-none" href="#">
             <h1>Deshan</h1>
@@ -86,7 +87,7 @@ const Navbar = () => {
               <a class="block p-4 text-sm font-semibold text-gray-400 h hover:bg-purple-900 hover:text-purple-50 rounded" href="#aboutme">About Me</a>
             </li>
             <li class="mb-1">
-              <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-purple-900 hover:text-purple-50 rounded" href="#">Services</a>
+              <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-purple-900 hover:text-purple-50 rounded" href="#projects">My Projects</a>
             </li>
             <li class="mb-1">
               <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-purple-900 hover:text-purple-50 rounded" href="#">Pricing</a>

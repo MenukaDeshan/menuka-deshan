@@ -61,7 +61,7 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white" id="about">
+    <section className="text-white" id="aboutme">
       <div className="items-center gap-8 px-4 py-8 md:grid md:grid-cols-2 xl:gap-16 sm:py-16 xl:px-16">
         {/*3d MODEL*/}
         <Canvas style={{ width: '100%', height: '100%' }}>
@@ -139,9 +139,6 @@ const AboutSection = () => {
             height={40}
             alt="/"
           />
-          </div>
-          <div className="mt-8">
-            
           </div>
         </div>
       </div>
