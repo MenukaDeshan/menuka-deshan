@@ -83,51 +83,61 @@ const AboutSection = () => {
             src={html}
             width={40}
             height={40}
+            alt="/"
           />
           <Image className="mt-2 mr-2"
             src={css}
             width={40}
             height={40}
+            alt="/"
           />
           <Image className="mt-2 mr-2"
             src={js}
             width={40}
             height={40}
+            alt="/"
           />
           <Image className="mt-2 mr-2"
             src={bs}
             width={40}
             height={40}
+            alt="/"
           />
           <Image className="mt-2 mr-2"
             src={tw}
             width={40}
             height={40}
+            alt="/"
           /> 
           <Image className="mt-2 mr-2"
             src={react}
             width={40}
             height={40}
+            alt="/"
           />
           <Image className="mt-2 mr-2"
             src={mysql}
             width={40}
             height={40}
+            alt="/"
           />
           <Image className="mt-2 mr-2"
             src={java}
             width={40}
             height={40}
+            alt="/"
           />
          <Image className="mt-2 mr-2"
             src={three}
             width={40}
             height={40}
+            alt="/"
           />
         <Image className="mt-2 mr-2"
             src={gh}
             width={40}
             height={40}
+            alt="/"
           />
           </div>
           <div className="mt-8">
