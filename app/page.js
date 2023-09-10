@@ -1,11 +1,16 @@
-
+"use client";
+import AboutMe from '@/components/AboutMe'
 import { Hero } from '@/components/Hero'
-import Image from 'next/image'
+import Projects from '@/components/Projects'
+import { AnimatePresence } from 'framer-motion';
+import { useState, useEffect } from 'react'
 
-export default function Home() {
+export default function Home(router) {
   return (
-    <main className="flex flex-col items-center justify-between min-h-screen max-w-[1340px] h-full mx-auto">
+    <main className="flex flex-col items-center justify-between min-h-screen max-w-[1400px] h-full mx-auto">
       <Hero/>
+      <AboutMe/>
+      <Projects/>
     </main>
   )
 }
