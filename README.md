@@ -1,3 +1,11 @@
+<h2 align="center">
+  Portfolio Website - v2.0<br/>
+  <a href="https://menuka-deshan.vercel.app/" target="_blank">DESHAN</a>
+</h2>
+<div align="center">
+  <img alt="Demo" src="./public/images/projects/project1.png" />
+</div>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -31,5 +39,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# menuka-deshan
+### Built With
+
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+
