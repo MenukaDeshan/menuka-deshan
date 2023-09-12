@@ -2,6 +2,8 @@
 import React, { useEffect } from 'react';
 import { motion as m } from 'framer-motion';
 
+
+
 const Navbar = () => {
   useEffect(() => {
     // Burger menus
