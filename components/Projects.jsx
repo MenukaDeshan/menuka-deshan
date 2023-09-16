@@ -32,6 +32,15 @@ const projectsData = [
     gitUrl: "https://deshan-v1.vercel.app/",
     previewUrl: "/",
   },
+  {
+    id: 4,
+    title: "The Closet",
+    description: "Ecommerce Clothing Website",
+    image: "/images/projects/project4.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://menukadeshan.github.io/TheCloset/",
+    previewUrl: "/",
+  },
 ];
 
 const ProjectsSection = () => {
