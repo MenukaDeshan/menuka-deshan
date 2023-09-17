@@ -41,6 +41,15 @@ const projectsData = [
     gitUrl: "https://menukadeshan.github.io/TheCloset/",
     previewUrl: "/",
   },
+  {
+    id: 4,
+    title: "Sigiriya 3D-Lens",
+    description: "Sigiriya 3d website landing page using html/css/js",
+    image: "/images/projects/project5.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://menukadeshan.github.io/3d-Lens/",
+    previewUrl: "/",
+  },
 ];
 
 const ProjectsSection = () => {
