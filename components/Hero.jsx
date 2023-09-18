@@ -11,7 +11,12 @@ import { BsFacebook, BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs';
 import { motion as m } from 'framer-motion';
 
 export const Hero = () => {
-  
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    setDarkMode(prevDarkMode => !prevDarkMode);
+  };
+
   return (
     <section className="flex flex-col-reverse justify-center w-full h-screen pb-10 md:flex-row md:h-screen" id="Hero">
       <m.div 

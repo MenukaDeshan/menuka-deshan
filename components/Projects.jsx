@@ -50,6 +50,15 @@ const projectsData = [
     gitUrl: "https://menukadeshan.github.io/3d-Lens/",
     previewUrl: "/",
   },
+  {
+    id: 5,
+    title: "Sigiriya Parallax",
+    description: "Sigiriya Parallax website landing page",
+    image: "/images/projects/project6.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://menukadeshan.github.io/Sigiriya-parallax/",
+    previewUrl: "/",
+  },
 ];
 
 const ProjectsSection = () => {
