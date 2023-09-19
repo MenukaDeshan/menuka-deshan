@@ -10,7 +10,7 @@ const projectsData = [
     title: "React Portfolio Website",
     description: "This is a Next.js project",
     image: "/images/projects/project1.png",
-    tag: ["All", "Web"],
+    tag: ["All", "React"],
     gitUrl: "https://menuka-deshan.vercel.app/",
     previewUrl: "/",
   },
@@ -19,7 +19,7 @@ const projectsData = [
     title: "CyberSecurity Website",
     description: "Blogs and videos about cybersecurity",
     image: "/images/projects/project2.png",
-    tag: ["All", "Web"],
+    tag: ["All", "HTML"],
     gitUrl: "https://cybersec-drab.vercel.app/",
     previewUrl: "/",
   },
@@ -28,7 +28,7 @@ const projectsData = [
     title: "3D Website",
     description: "Threejs test",
     image: "/images/projects/project3.png",
-    tag: ["All", "Web"],
+    tag: ["All", "React"],
     gitUrl: "https://deshan-v1.vercel.app/",
     previewUrl: "/",
   },
@@ -37,7 +37,7 @@ const projectsData = [
     title: "The Closet",
     description: "Ecommerce Clothing Website",
     image: "/images/projects/project4.png",
-    tag: ["All", "Web"],
+    tag: ["All", "HTML"],
     gitUrl: "https://menukadeshan.github.io/TheCloset/",
     previewUrl: "/",
   },
@@ -46,7 +46,7 @@ const projectsData = [
     title: "Sigiriya 3D-Lens",
     description: "Sigiriya 3d website landing page using html/css/js",
     image: "/images/projects/project5.png",
-    tag: ["All", "Web"],
+    tag: ["All", "HTML"],
     gitUrl: "https://menukadeshan.github.io/3d-Lens/",
     previewUrl: "/",
   },
@@ -55,7 +55,7 @@ const projectsData = [
     title: "Sigiriya Parallax",
     description: "Sigiriya Parallax website landing page",
     image: "/images/projects/project6.png",
-    tag: ["All", "Web"],
+    tag: ["All", "HTML"],
     gitUrl: "https://menukadeshan.github.io/Sigiriya-parallax/",
     previewUrl: "/",
   },
@@ -92,13 +92,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="React"
+          isSelected={tag === "React"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="HTML"
+          isSelected={tag === "HTML"}
         />
       </div>
       <ul ref={ref} className="grid gap-8 md:grid-cols-3 md:gap-12">
