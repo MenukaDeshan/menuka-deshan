@@ -23,18 +23,8 @@ const projectsData = [
     gitUrl: "https://cybersec-drab.vercel.app/",
     previewUrl: "/",
   },
-  {/** 
   {
     id: 3,
-    title: "3D Website",
-    description: "Threejs test",
-    image: "/images/projects/project3.png",
-    tag: ["All", "React"],
-    gitUrl: "https://deshan-v1.vercel.app/",
-    previewUrl: "/",
-  },*/},
-  {
-    id: 4,
     title: "The Closet",
     description: "Ecommerce Clothing Website",
     image: "/images/projects/project4.png",
