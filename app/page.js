@@ -9,7 +9,7 @@ import Cursor from '@/components/Cursor';
 
 export default function Home(router) {
   return (
-    <main className={"flex flex-col items-center justify-between min-h-screen max-w-[1400px] h-full mx-auto ${styles.cursor}"}>
+    <main className={"flex flex-col items-center justify-between min-h-screen max-w-[1400px] h-full mx-auto ${styles.cursor} bg-black text-white"}>
       <Cursor/>
       <Hero/>
       <AboutMe/>
