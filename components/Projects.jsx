@@ -50,6 +50,15 @@ const projectsData = [
     gitUrl: "https://menukadeshan.github.io/Sigiriya-parallax/",
     previewUrl: "/",
   },
+  {
+    id: 6,
+    title: "HTML & CSS Gallery",
+    description: "Gallery",
+    image: "/images/projects/project7.jpg",
+    tag: ["All", "HTML"],
+    gitUrl: "https://menukadeshan.github.io/GalleryHTML/",
+    previewUrl: "/",
+  },
 ];
 
 const ProjectsSection = () => {
