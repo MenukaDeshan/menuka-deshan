@@ -59,6 +59,15 @@ const projectsData = [
     gitUrl: "https://menukadeshan.github.io/GalleryHTML/",
     previewUrl: "/",
   },
+  {
+    id: 7,
+    title: "Assassin's Creed",
+    description: "The Complete Assassin's Creed Timeline",
+    image: "/images/projects/project8.jpg",
+    tag: ["All", "HTML"],
+    gitUrl: "https://assassins-creed-sigma.vercel.app/",
+    previewUrl: "/",
+  },
 ];
 
 const ProjectsSection = () => {
