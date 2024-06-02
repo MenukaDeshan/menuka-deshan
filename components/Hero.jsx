@@ -18,12 +18,11 @@ export const Hero = () => {
   };
 
   return (
-    <section className="flex flex-col-reverse justify-center w-full h-screen pb-10 md:flex-row md:h-screen" id="Hero">
-      <m.div 
-      className="flex items-center justify-center p-10 h-1/5 md:h-full md:w-2/5">
+    <section className="flex flex-col-reverse justify-center w-full h-screen md:flex-row md:h-screen" id="Hero">
+      <m.div className="flex items-center justify-center p-10 h-1/5 md:h-full md:w-2/5">
         <div id="text" className="overflow-hidden text-center md:text-left">
         <h1 className="mb-1 font-mono text-3xl">I am</h1>
-        <h1 id='name' className="mb-2 text-5xl font-bold uppercase md:text-7xl hover:text-purple-400">Menuka Deshan</h1>
+        <h1 id='name' className="mb-1 text-5xl font-bold uppercase md:text-7xl hover:text-blue-400">Menuka Deshan</h1>
           
           <p className="text-sm tracking-widest capitalize md:text-md">
             <TypeAnimation
@@ -47,9 +46,9 @@ export const Hero = () => {
           {/* Icons */}
           <div className='flex justify-center mt-1 md:justify-start'>
             <h2 className='flex text-2xl'>
-            <a href='https://github.com/MenukaDeshan' target='blank' className='m-1 hover:text-purple-500'><BsGithub/></a>
-            <a href='https://github.com/MenukaDeshan' target='blank' className='m-1 hover:text-purple-500'><BsFacebook/></a>
-            <a href='https://github.com/MenukaDeshan' target='blank' className='m-1 hover:text-purple-500'><BsInstagram/></a>
+            <a href='https://github.com/MenukaDeshan' target='blank' className='m-1 hover:text-blue-500'><BsGithub/></a>
+            <a href='https://github.com/MenukaDeshan' target='blank' className='m-1 hover:text-blue-500'><BsFacebook/></a>
+            <a href='https://www.linkedin.com/in/menuka-deshan/' target='blank' className='m-1 hover:text-blue-500'><BsLinkedin/></a>
             </h2>
           </div>
            {/* 3d MODEL 
@@ -64,7 +63,8 @@ export const Hero = () => {
           <ambientLight intensity={1} />
           <directionalLight position={[3, 2, 1]} />
           <Sphere args={[1, 70, 100]} scale={1.8}>
-            <MeshDistortMaterial color="#7a00d7" attach="material" distort={0.5} speed={1} />
+            {/* #7a00d7 */}
+            <MeshDistortMaterial color="#02007a" attach="material" distort={0.5} speed={1} />
           </Sphere>
         </Canvas>
         <div className="flex items-center justify-center">

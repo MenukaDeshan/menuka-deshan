@@ -61,8 +61,8 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white" id="aboutme">
-      <div className="items-center gap-8 px-4 py-8 md:grid md:grid-cols-2 xl:gap-16 sm:py-16 xl:px-16">
+    <section className="justify-center w-auto h-auto mb-24 text-white mx-22" id="aboutme">
+      <div className="items-center gap-8 px-4 py-8 md:grid md:grid-cols-2 xl:gap-16 xl:px-16 bg-slate-950">
         {/*3d MODEL*/}
         <Canvas style={{ width: '100%', height: '100%' }}>
           <Stage environment="city" intensity={0.6}>
@@ -72,7 +72,7 @@ const AboutSection = () => {
         </Canvas>
         <div className="flex flex-col w-full h-full px-4 mx-3 mt-4 text-left md:mt-0">
           <h2 className="mb-4 text-4xl font-bold text-white">About Me</h2>
-          <p className="text-base lg:text-lg">
+          <p className="text-base sm:text-sm lg:text-lg" >
           I am a passionate and enthusiastic beginner programmer with a strong desire to explore the exciting world of coding. 
           I have a solid foundation in the basics of programming languages such as Python, JavaScript, and HTML/CSS. 
           I am constantly eager to learn and improve my skills, and I enjoy tackling coding challenges and building small projects. 

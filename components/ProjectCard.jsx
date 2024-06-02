@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
   return (
-    <div className="text-black duration-300 shadow-xl hover:rounded-xl hover:scale-105 hover:shadow-purple-500/95">
+    <div className="text-black duration-300 shadow-xl hover:rounded-xl hover:scale-105 hover:shadow-blue-500/95">
       <Link href={gitUrl} target="blank">
       <div
         className="relative h-52 md:h-52 rounded-t-xl group hover:rounded-xl"
