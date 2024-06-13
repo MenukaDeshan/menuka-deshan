@@ -72,7 +72,7 @@ export const Hero = () => {
             src={profile} 
             alt="horebanner"
             className="absolute top-0 bottom-0 left-0 right-0 object-contain h-auto m-auto mx-auto rounded-full"
-            width={550}     
+            width={400}     
             priority
           />
         </div>
