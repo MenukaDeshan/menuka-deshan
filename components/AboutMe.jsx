@@ -62,7 +62,7 @@ const AboutSection = () => {
 
   return (
     <section className="justify-center w-auto h-auto mb-24 text-white mx-22" id="aboutme">
-      <div className="items-center gap-8 px-4 py-8 md:grid md:grid-cols-2 xl:gap-16 xl:px-16 bg-slate-950">
+      <div className="items-center gap-8 px-4 py-8 md:grid md:grid-cols-2 xl:gap-16 xl:px-16 bg-purple-950">
         {/*3d MODEL*/}
         <Canvas style={{ width: '100%', height: '100%' }}>
           <Stage environment="city" intensity={0.6}>
