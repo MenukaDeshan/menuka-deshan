@@ -54,13 +54,13 @@ const TimelineSection = () => {
         </h2>
         <div className="flex justify-center mb-6">
           <button
-            className={`mx-2 py-2 px-4 ${activeTab === 'education' ? 'border-b-2 border-blue-500 text-blue-500' : ''}`}
+            className={`mx-2 py-2 px-4 ${activeTab === 'education' ? 'border-b-2 border-violet-950 text-purple-950' : ''}`}
             onClick={() => setActiveTab('education')}
           >
             Education
           </button>
           <button
-            className={`mx-2 py-2 px-4 ${activeTab === 'work' ? 'border-b-2 border-blue-500 text-blue-500' : ''}`}
+            className={`mx-2 py-2 px-4 ${activeTab === 'work' ? 'border-b-2 border-blue-500 text-purple-950' : ''}`}
             onClick={() => setActiveTab('work')}
           >
             Work

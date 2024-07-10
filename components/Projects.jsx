@@ -89,7 +89,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects" className="justify-center w-full h-auto px-10 pb-10 bg-slate-950">
+    <section id="projects" className="justify-center w-full h-auto px-10 pb-10 bg-violet-950">
       <h2 className="w-auto py-4 mt-4 mb-8 text-4xl font-bold text-center text-white md:mb-2">
         My Projects
       </h2>

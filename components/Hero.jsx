@@ -64,7 +64,7 @@ export const Hero = () => {
           <directionalLight position={[3, 2, 1]} />
           <Sphere args={[1, 70, 100]} scale={1.8}>
             {/* #7a00d7 */}
-            <MeshDistortMaterial color="#02007a" attach="material" distort={0.5} speed={1} />
+            <MeshDistortMaterial color="#34027a" attach="material" distort={0.5} speed={1} />
           </Sphere>
         </Canvas>
         <div className="flex items-center justify-center">

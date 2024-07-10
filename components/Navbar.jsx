@@ -44,7 +44,7 @@ const Navbar = () => {
   }, []);
   // backdrop-blur-lg
   return (
-    <nav class="fixed top-0 left-0 right-0 z-10 px-20 py-4 flex justify-between items-center bg-black/70 bg-slate-950">
+    <nav class="fixed top-0 left-0 right-0 z-10 px-20 py-4 flex justify-between items-center bg-black/70 bg-violet-950">
 		<a class="text-3xl font-bold leading-none" href="#">
 			<h1 class="text-white">Deshan</h1>
 		</a>
