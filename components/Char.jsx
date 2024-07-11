@@ -11,7 +11,7 @@ export default function Model(props) {
   const { nodes, materials } = useGLTF('/char-transformed.glb')
   return (
     <group {...props} dispose={null}>
-      <mesh geometry={nodes['React-Logo_Material002_0'].geometry} material={materials['Material.002']} position={[0, 0.079, 0.181]} rotation={[0, 0, -Math.PI / 2]} scale={[0.292, 0.292, 0.527]} />
+      <mesh geometry={nodes['React-Logo_Material002_0'].geometry} material={materials['Material.002']} position={[0, 0.079, 0.181]} rotation={[0, 0, -Math.PI / 2]} scale={[0.292, 0.292, 0.597]} />
     </group>
   )
 }

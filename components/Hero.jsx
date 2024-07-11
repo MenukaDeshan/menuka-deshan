@@ -22,7 +22,7 @@ export const Hero = () => {
       <m.div className="flex items-center justify-center p-10 h-1/5 md:h-full md:w-2/5">
         <div id="text" className="overflow-hidden text-center md:text-left">
         <h1 className="mb-1 font-mono text-3xl">I am</h1>
-        <h1 id='name' className="mb-1 text-5xl font-bold uppercase md:text-7xl hover:text-blue-400">Menuka Deshan</h1>
+        <h1 id='name' className="mb-1 text-5xl font-bold uppercase md:text-7xl hover:text-purple-400">Menuka Deshan</h1>
           
           <p className="text-sm tracking-widest capitalize md:text-md">
             <TypeAnimation
@@ -62,9 +62,9 @@ export const Hero = () => {
           <OrbitControls enableZoom={false} />
           <ambientLight intensity={1} />
           <directionalLight position={[3, 2, 1]} />
-          <Sphere args={[1, 70, 100]} scale={1.8}>
+          <Sphere args={[1, 70, 500]} scale={1.8}>
             {/* #7a00d7 */}
-            <MeshDistortMaterial color="#34027a" attach="material" distort={0.5} speed={1} />
+            <MeshDistortMaterial color="#6d32a8" attach="material" distort={0.5} speed={1} />
           </Sphere>
         </Canvas>
         <div className="flex items-center justify-center">
@@ -72,7 +72,7 @@ export const Hero = () => {
             src={profile} 
             alt="horebanner"
             className="absolute top-0 bottom-0 left-0 right-0 object-contain h-auto m-auto mx-auto rounded-full"
-            width={400}     
+            width={500}     
             priority
           />
         </div>

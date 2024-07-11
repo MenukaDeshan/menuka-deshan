@@ -60,7 +60,7 @@ const TimelineSection = () => {
             Education
           </button>
           <button
-            className={`mx-2 py-2 px-4 ${activeTab === 'work' ? 'border-b-2 border-blue-500 text-purple-950' : ''}`}
+            className={`mx-2 py-2 px-4 ${activeTab === 'work' ? 'border-b-2 border-purple-500 text-purple-950' : ''}`}
             onClick={() => setActiveTab('work')}
           >
             Work
@@ -75,14 +75,14 @@ const TimelineSection = () => {
             <ul className="flex flex-col items-start justify-between w-full ml-8 xs:ml-2">
               {experiences.map((exp, index) => (
                 <li key={index} className="relative pl-4 mb-3">
-                  <div className="absolute left-0 top-1.5 w-5 h-5 rounded-full bg-blue-500"></div>
+                  <div className="absolute left-0 top-1.5 w-5 h-5 rounded-full bg-purple-500"></div>
                   {index !== experiences.length - 1 && 
-                  <div className="absolute h-full border-l-4 border-blue-500 left-2 top-6"></div>}
+                  <div className="absolute h-full border-l-4 border-purple-500 left-2 top-6"></div>}
                   <div className="w-[90%] mx-auto flex flex-col items-start justify-between md:w-[90%]">
                     <div className="relative">
-                      <h3 className="text-4xl font-bold capitalize text-sky-400 sm:text-2xl xs:text-4xl">
+                      <h3 className="text-4xl font-bold capitalize text-purple-400 sm:text-2xl xs:text-4xl">
                         {exp.role} 
-                        <a className="text-xl capitalize text-sky-900 text-primary dark:text-primaryDark" 
+                        <a className="text-xl capitalize text-purple-900 text-primary dark:text-primaryDark" 
                         href={exp.link} target="_blank"><br/>{exp.company}</a>
                       </h3>
                       <span className="font-medium capitalize text-dark/75 dark:text-light/50 xs:text-sm">

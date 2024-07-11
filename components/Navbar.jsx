@@ -42,14 +42,14 @@ const Navbar = () => {
       }
     }
   }, []);
-  // backdrop-blur-lg
+  
   return (
-    <nav class="fixed top-0 left-0 right-0 z-10 px-20 py-4 flex justify-between items-center bg-black/70 bg-violet-950">
+    <nav class="fixed top-0 left-0 right-0 z-10 px-20 py-4 flex justify-between items-center bg-black/70 bg-black-950 backdrop-blur-lg">
 		<a class="text-3xl font-bold leading-none" href="#">
 			<h1 class="text-white">Deshan</h1>
 		</a>
 		<div class="md:hidden">
-			<button class="navbar-burger flex items-center text-blue-600 p-3">
+			<button class="navbar-burger flex items-center text-purple-600 p-3">
 				<svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 					<title>Mobile menu</title>
 					<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
@@ -57,7 +57,7 @@ const Navbar = () => {
 			</button>
 		</div>
 		<ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 md:mx-auto md:flex md:items-center md:w-auto md:space-x-6">
-			<li><a class="text-sm text-blue-600 font-bold" href="#Hero">Home</a></li>
+			<li><a class="text-sm text-purple-600 font-bold" href="#Hero">Home</a></li>
 
 			<li><a class="text-sm text-gray-400 hover:text-gray-500" href="#aboutme">About Me</a></li>
 
@@ -66,7 +66,7 @@ const Navbar = () => {
 			<li><a class="text-sm text-gray-400 hover:text-gray-500" href="#">Contact</a></li>
 		</ul>
 		
-		<a class="hidden md:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200" href="#">Resume</a>
+		<a class="hidden md:inline-block py-2 px-6 bg-purple-500 hover:bg-purple-600 text-sm text-white font-bold rounded-xl transition duration-200" href="#">Resume</a>
     <div class="navbar-menu relative z-50 hidden">
       <div class="navbar-backdrop fixed inset-0 bg-black/20 opacity-25"></div>
       <div class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-black/20 backdrop-blur-lg border-r overflow-y-auto">
@@ -83,7 +83,7 @@ const Navbar = () => {
         <div>
           <ul>
             <li class="mb-1">
-              <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-900 hover:text-purple-50 rounded" href="#Hero">Home</a>
+              <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-purple-900 hover:text-purple-50 rounded" href="#Hero">Home</a>
             </li>
             <li class="mb-1">
               <a class="block p-4 text-sm font-semibold text-gray-400 h hover:bg-purple-900 hover:text-purple-50 rounded" href="#aboutme">About Me</a>
