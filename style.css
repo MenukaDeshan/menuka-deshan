@@ -15,7 +15,9 @@ body {
     to {top: 100; opacity: 1;}
     
   }
-  
+  a{
+    color: #4FEBFE;
+  }
   .wrapper {
     position: absolute;
     left: 50%;
